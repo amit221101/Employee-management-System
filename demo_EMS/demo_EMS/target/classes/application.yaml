@@ -1,0 +1,15 @@
+#spring.application.name=demo_EMS
+spring:
+  application:
+    name: demo_EMS
+  datasource:
+    url: jdbc:mysql://localhost:3306/emp_db
+    username: root
+    password: amit@221101
+  jpa:
+    hibernate:
+      ddl_auto: update
+    show_sql: true
+    properties:
+      hibernate:
+        format_sql: true
